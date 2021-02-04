@@ -1,0 +1,1 @@
+INSERT INTO twitterdata (name, created, loc, coords, followers, description, text_) VALUES (%s, %s, %s, %s, %s, %s, %s);
