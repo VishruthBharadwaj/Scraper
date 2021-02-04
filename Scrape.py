@@ -23,7 +23,7 @@ def easy():
 
     tags = tagb.split(sep=",")
         
-    #data=input('What u want to search inside database table: ')
+    
         
 
 
