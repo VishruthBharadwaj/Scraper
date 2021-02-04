@@ -44,10 +44,7 @@ def easy():
             con = mysql.connector.connect(option_files='my.conf')
 
             cursor = con.cursor(buffered=True)
-            #query = """INSERT INTO synctactic (name, created, loc, coords, followers, description, text_) VALUES (%s, %s, %s, %s, %s, %s, %s)"""
-            
-
-            #Connecting to mysql query  from tweetquery.sql
+         
             fd = open('tweetquery.sql', 'r')
             sqlFile = fd.read()
             fd.close()
