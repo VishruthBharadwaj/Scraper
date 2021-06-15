@@ -8,10 +8,7 @@ import mysql.connector
 import twitterkeys as cfg
 
 import pandas as pd
-
-
-  
-
+#vb
 
 def easy():
     auth = tweepy.OAuthHandler(cfg.twitter["consumer_key"], cfg.twitter["consumer_secret"])
