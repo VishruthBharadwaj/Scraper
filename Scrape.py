@@ -6,7 +6,8 @@ import csv
 import mysql.connector
 
 import twitterkeys as cfg
-#nnn
+#nnnm
+#gf
 import pandas as pd
 #vb
 #heyy
